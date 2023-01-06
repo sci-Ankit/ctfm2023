@@ -1,0 +1,82 @@
+<!--==============================
+=            Schedule            =
+===============================-->
+
+<section class="section schedule" id ="schedule">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3>Program Schedule</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="schedule-tab">
+					<ul class="nav nav-pills text-center">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="#day01" data-toggle="pill">
+					    	Day-01
+					    	<span>06 March 2022</span>
+					    </a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#day02" data-toggle="pill">
+							Day-02
+					    	<span>07 March 2022</span>
+					    </a>
+					  </li>
+
+					</ul>
+				</div>
+				<div class="schedule-contents bg-schedule">
+					<div class="tab-content" id="pills-tabContent">
+					  <div class="tab-pane fade show active schedule-item" id="day01">
+					  	<!-- Headings -->
+					  	<ul class="m-0 p-0">
+					  		<li class="headings">
+					  			<div class="time">Time</div>
+					  			<div class="speaker">Speaker</div>
+					  			<div class="subject">Subject</div>
+					  			
+					  		</li>
+					  		<!-- Schedule Details -->
+							  @@include('blocks/schedule-events.htm',{
+								"name" : "Speaker ",
+								"photo" : "images/speakers/Temp.jpg",
+								"time" : "8:00 AM",
+								"topic" : "Topic of the talk"
+								
+							})
+
+					  	</ul>
+					  </div>
+					  <div class="tab-pane fade schedule-item" id="day02">
+					  	<!-- Headings -->
+					  	<ul class="m-0 p-0">
+					  		<li class="headings">
+					  			<div class="time">Time</div>
+					  			<div class="speaker">Speaker</div>
+					  			<div class="subject">Subject</div>
+					  			
+					  		</li>
+					  		<!-- Schedule Details -->
+					  	
+
+					  	</ul>
+					  </div>
+
+					</div>
+				</div>
+				@@if( button === true ){
+					<div class="download-button text-center">
+						<a href="#" class="btn btn-main-md">Download Schedule</a>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Schedule  ====-->

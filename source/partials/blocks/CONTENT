@@ -1,0 +1,83 @@
+
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Olivier Guillon",
+				"insti"	: "Institute of Energy and Climate Research Forschungszentrum Jülich, Germany",
+				"photo" : "images/speakers/Olivier.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Debashish Bhattacharjee",
+				"insti"	: "New Material Business Tata Steel Ltd, Kolkata, India",
+				"photo" : "images/speakers/Debashish.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Jochen Schneider",
+				"insti"	: "Chair of Materials Chemistry	RWTH Aachen University<br>Germany",
+				"photo" : "images/speakers/Jochen.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Barbara Milow",
+				"insti"	: "Institute of Materials Research,  University of Cologne, <br>Germany",
+				"photo" : "images/speakers/Barbara.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Ausrine Bartasyte",
+				"insti"	: "Institute FEMTO-ST <br>University of Franche-Comté<br>FRANCE",
+				"photo" : "images/speakers/Austerine.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Bilge Saruhan Brings",
+				"insti"	: "German Aerospace Center <br>(DLR)<br>Germany",
+				"photo" : "images/speakers/Bilge.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Anke Weidenkaff",
+				"insti"	: "Technical University of Darmstadt,Fraunhofer IWKS <br>Germany",
+				"photo" : "images/speakers/Anke.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Kwang-Ho Kim",
+				"insti"	: "Global Frontier R&D Centre for Hybrid Interface Materials Ceramics Busan National University, Korea",
+				"photo" : "images/speakers/Kwang.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Maarit Karppinen",
+				"insti"	: "Inorganic Materials Chemistry Group, Aalto University, <br>Finland",
+				"photo" : "images/speakers/Maarit.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			})
+			@@include('blocks/speaker-item.htm',{
+				"name" : "Monica Ferraris",
+				"insti"	: "GLANCE (Glasses, Ceramics and Composites Lab), Politecnico di Torino, Italy",
+				"photo" : "images/speakers/Monica.jpg",
+				"linkedin" : "#",
+				"website" : "#"
+			}) 

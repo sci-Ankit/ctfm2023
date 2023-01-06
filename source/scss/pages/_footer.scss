@@ -1,0 +1,23 @@
+.footer1{
+    h1{
+        color:$secondary-color;
+        font-size: 20px;
+    }
+    p{
+        font-size:15px;
+        line-height: normal;
+    }
+}
+
+.footer2{
+    h1{
+        color:$secondary-color;
+        font-size: 20px;
+        text-align: right;
+    }
+    p{
+        font-size:15px;
+        line-height: normal;
+        text-align: right;
+    }
+}

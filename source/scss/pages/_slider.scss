@@ -1,0 +1,27 @@
+.venue-slider {
+    transform: translateY(30px);
+    .item {
+        
+        padding: 5px;
+    }
+    
+    
+
+
+    // Owl dot Active color overide
+    .owl-dots {
+        .owl-dot {
+            &:hover {
+                span {
+                    background: $primary-color;
+                }
+            }
+
+            &.active {
+                span {
+                    background: $primary-color;
+                }
+            }
+        }
+    }
+}

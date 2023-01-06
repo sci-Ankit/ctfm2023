@@ -1,0 +1,85 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm')
+
+@@include('blocks/page-title.htm',{
+	"title" : "Registration",
+	"page"	: "Our Speaker"
+})
+
+
+<!--==============================
+=            Registratoini          =
+===============================-->
+
+
+<section class="registration" id = "registeration">
+	<div class="container-fuild p-0">
+		<div class="row">
+
+			<div class="col-lg-12 col-md-12 p-0">
+				<div class="registration-block  overlay-white">
+					@@include('blocks/registration-form.htm')
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="registration">
+	<div class="container-fuild p-0">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 p-0">
+				<div class="service-block bg-service overlay-primary text-center">
+					<div class="row no-gutters">
+						<div class="col-6">
+							<!-- Service item -->
+							<div class="service-item">
+								<i class="fa fa-microphone"></i>
+								<h5>19 Speakers</h5>
+							</div>
+						</div>
+						<div class="col-6">
+							<!-- Service item -->
+							<div class="service-item">
+								<i class="fa fa-flag"></i>
+								<h5>100 + Seats</h5>
+							</div>
+						</div>
+						<div class="col-6">
+							<!-- Service item -->
+							<div class="service-item">
+								<i class="fa fa-list"></i>
+								<h5>4 Domains</h5>
+							</div>
+						</div>
+						<div class="col-6">
+							<!-- Service item -->
+							<div class="service-item">
+								<i class="fa fa-calendar"></i>
+								<h5>2 days event</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 p-0">
+				<div class="registration-block bg-registration overlay-dark">
+					@@include('blocks/registration-form.htm')
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End  ====-->
+
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')
